@@ -1,0 +1,16 @@
+Day-1/PROJECT-ec2-instance-creation
+
+
+# Local .terraform folder (contains plugins and modules)
+Day-1/PROJECT-ec2-instance-creation/.terraform/
+
+# Distributed lock file (optional, but usually ignored in simple setups)
+Day-1/PROJECT-ec2-instance-creation/.terraform.lock.hcl
+
+# State files (NEVER push these, they contain secrets!)
+/home/me/poc/terraform/terraform-zero-to-hero/Day-1/PROJECT-ec2-instance-creation/*.tfstate
+Day-1/PROJECT-ec2-instance-creation/*.tfstate.*
+
+# Variables files that might contain secrets
+Day-1/PROJECT-ec2-instance-creation/*.tfvars
+Day-1/PROJECT-ec2-instance-creation/*.tfvars.json
